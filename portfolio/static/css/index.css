@@ -1,0 +1,40 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    .resume-header {
+      padding: 40px 0;
+      border-bottom: 2px solid #ccc;
+      text-align: center;
+    }
+    .resume-header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .resume-header p {
+      margin: 0;
+      font-size: 1rem;
+      color: #666;
+    }
+    .section-title {
+      font-size: 1.4rem;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .resume-section {
+      margin-bottom: 30px;
+    }
+    .skill-badge {
+      background-color: #eee;
+      color: #333;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      display: inline-block;
+    }

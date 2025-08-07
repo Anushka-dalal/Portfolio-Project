@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {%load static%}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <title>Home</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/resume/">Resume</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Anushka-dalal">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:anushkadalal80@gmail.com">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br />
+
+  <div class="jumbotron">
+    <div class="row align-items-center" style="padding: 50px">
+      <div class="col-md-8">
+        <h2 class="display-4">Welcome to my Portfolio!</h2>
+        <p class="lead">
+          I'm Anushka Dalal, Aspiring Python full-stack developer with a
+          growing skill set in web development.
+        </p>
+        <hr class="my-4" />
+        <p>
+          Passionate about building real-world projects, learning new
+          technologies, and preparing for a career in tech. You can checkout
+          my resume here-
+        </p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="/resume/" role="button">Resume</a>
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="{% static 'images/profile.jpg' %}" class="img-fluid rounded-circle img-thumbnail" alt="Profile Image"
+          style="width: 250px; height: 250px; object-fit: cover; object-position: center top;" />
+      </div>
+    </div>
+  </div>
+  <br />
+  
+  <h2 class="text-center mb-4 padding-bottom -20px">Certifications</h2>
+  <div class="d-flex justify-content-center" style="gap: 20px">
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top" src="{% static 'images/mscit.jpg' %}" alt="Card image cap" />
+      <div class="card-body">
+        <p class="card-text">
+          Learned programming fundamentals through C and C++, followed by in-depth study of Core and Advanced Java. Also gained exposure to front-end technologies for basic web designing.
+        </p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top" src="{% static 'images/typing.jpg' %}" alt="Card image cap" />
+      <div class="card-body">
+        <p class="card-text"> Achieved 30 words per minute in English typing. Improved speed and accuracy through regular practice, enhancing overall efficiency in computer-based communication and data entry tasks.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top" src="{% static 'images/java.jpg' %}" alt="Card image cap" />
+      <div class="card-body">
+        <p class="card-text">
+          Learned programming fundamentals through C and C++, followed by in-depth study of Core and Advanced Java. Also gained exposure to front-end technologies for basic web designing.
+        </p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top" src="{% static 'images/cpp.jpg' %}" alt="Card image cap" />
+      <div class="card-body">
+        <p class="card-text"> Understood object-oriented programming concepts using C++. Gained hands-on experience in writing structured programs and implementing data structures and algorithms.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top" src="{% static 'images/python.jpg' %}" alt="Card image cap" />
+      <div class="card-body">
+        <p class="card-text">Learned Core Python including syntax, functions, loops, and basic data structures. Currently applying these skills to Django web development projects, focusing on building dynamic websites.
+      </p></p>
+      </div>
+    </div>
+  </div>
+  <br />
+  <footer class="bg-dark text-light py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-2">© 2025 Anushka Dalal. All rights reserved.</p>
+
+    <div class="mb-2">
+      <a href="mailto:anushkadalal80@gmail.com" class="text-light mx-2">Email</a> |
+      <a href="https://www.linkedin.com/in/anushka-dalal-9b307022a" target="_blank" class="text-light mx-2">LinkedIn</a> |
+      <a href="https://github.com/Anushka-dalal" target="_blank" class="text-light mx-2">GitHub</a>
+    </div>
+
+
+    <small>Made using HTML, CSS, Bootstrap, and Django</small>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
